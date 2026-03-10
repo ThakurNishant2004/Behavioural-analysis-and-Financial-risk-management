@@ -4,7 +4,12 @@ import pandas as pd
 
 app = FastAPI()
 
-model = joblib.load("risk_model.pkl")
+model = joblib.load("model/risk_model.pkl")
+
+@app.get("/")
+def home():
+    return {"message": "Financial Risk Prediction API is running"}
+
 
 feature_order = [
 "Age",
