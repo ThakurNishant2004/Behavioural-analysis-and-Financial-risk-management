@@ -111,18 +111,21 @@ The model identified several meaningful financial behavior patterns:
 ---
 
 ## 📁 Project Structure
-```text
+```bash
 financial-risk-intelligence/
 │
 ├── data/               # Raw and processed data
 ├── notebooks/          # Jupyter Notebooks
-│   └── financial_risk_model.ipynb
+│   └── Customer_features.ipynb
+│   └── Full_production_pipeline_of_modelling.ipynb
+│   └── Synthetic_dataset_generation.ipynb
 ├── sql/                # Database scripts
-│   ├── database_schema.sql
-│   └── feature_queries.sql
+│   ├── database_schemas.sql
+│   └── feature_engineering.sql
 ├── models/             # Saved model binaries
 ├── README.md           # Project documentation
 └── requirements.txt    # Dependencies
+```
 
 🛠️ Technologies Used
 Language: Python
