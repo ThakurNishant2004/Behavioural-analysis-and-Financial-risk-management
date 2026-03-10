@@ -13,19 +13,12 @@ venv/
 .DS_Store
 Thumbs.db
 
-#Testing / coverage
+# Testing / coverage
 .coverage
 htmlcov/
 .tox/
 .pytest_cache/
 
 # Build / packaging
-
 build/
 dist/
-
-# model files
-*.pkl
-*.joblib
-*.model
-models/
