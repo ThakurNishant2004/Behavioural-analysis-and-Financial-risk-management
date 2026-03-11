@@ -22,6 +22,9 @@ Financial institutions must assess whether a customer is likely to default on a 
 
 An interactive dashboard was built using **Streamlit** to make the model accessible as a real-time risk assessment tool.
 
+🔗 **Live Demo:**  
+https://behavioural-analysis-and-financial-risk-management-jfwldmljxfh.streamlit.app/
+
 The dashboard allows users to:
 - Explore financial behavior patterns
 - Input customer financial details
@@ -29,7 +32,7 @@ The dashboard allows users to:
 - Visualize model performance
 - Interpret predictions using SHAP explanations
 
-Run the dashboard locally:
+Run the dashboard locally: 
 
 ```bash
 streamlit run streamlit_app.py
