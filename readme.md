@@ -34,6 +34,7 @@ Run the dashboard locally:
 ```bash
 streamlit run streamlit_app.py
 ```
+---
 
 ## ⚠️ Dataset Note
 This project uses a **synthetic financial dataset** created to simulate customer behavior and credit risk patterns.
@@ -41,6 +42,8 @@ This project uses a **synthetic financial dataset** created to simulate customer
 While the dataset enables demonstration of the complete ML pipeline (SQL feature engineering, model training, explainable AI, API deployment, and dashboard), real financial systems typically include additional behavioral variables such as payment history, credit utilization, and delinquency records.
 
 Therefore, this project should be interpreted as a **demonstration of an end-to-end financial risk intelligence system architecture**, rather than a production-ready credit scoring model.
+
+---
 
 ## ⚙️ System Architecture
 The project follows a realistic data science pipeline similar to those used in financial institutions.
