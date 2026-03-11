@@ -18,6 +18,30 @@ Financial institutions must assess whether a customer is likely to default on a 
 
 ---
 
+## 🖥️ Interactive Dashboard
+
+An interactive dashboard was built using **Streamlit** to make the model accessible as a real-time risk assessment tool.
+
+The dashboard allows users to:
+- Explore financial behavior patterns
+- Input customer financial details
+- Predict default probability
+- Visualize model performance
+- Interpret predictions using SHAP explanations
+
+Run the dashboard locally:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+## ⚠️ Dataset Note
+This project uses a **synthetic financial dataset** created to simulate customer behavior and credit risk patterns.
+
+While the dataset enables demonstration of the complete ML pipeline (SQL feature engineering, model training, explainable AI, API deployment, and dashboard), real financial systems typically include additional behavioral variables such as payment history, credit utilization, and delinquency records.
+
+Therefore, this project should be interpreted as a **demonstration of an end-to-end financial risk intelligence system architecture**, rather than a production-ready credit scoring model.
+
 ## ⚙️ System Architecture
 The project follows a realistic data science pipeline similar to those used in financial institutions.
 
@@ -137,3 +161,4 @@ Data Analysis: Pandas, NumPy
 Visualization: Matplotlib, Seaborn
 
 Database: MySQL
+
